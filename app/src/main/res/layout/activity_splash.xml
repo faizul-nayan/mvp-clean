@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="@drawable/login_bg"
     android:orientation="vertical"
     android:gravity="center"
     android:weightSum="2">
@@ -20,7 +20,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="MVP Architecture"
+            android:text="@string/app_name"
+            android:textColor="@color/colorWhite"
             android:textSize="34sp"/>
 
 
@@ -37,9 +38,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="This is sentence"/>
+            android:textColor="@color/colorWhite"
+            android:text="@string/system_name"/>
 
-        <com.mvpclear.arichitecture.utills.HorizontalDottedProgress
+        <com.stockbook.ims.utills.HorizontalDottedProgress
             android:layout_marginTop="20dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
