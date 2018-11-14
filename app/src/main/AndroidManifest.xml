@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.stockbook.ims">
-
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.INTERNET" />
+    package="com.mvpclear.arichitecture">
 
     <application
         android:allowBackup="true"
@@ -12,8 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".presentation.SplashActivity"
+        <activity android:name=".presentation.SplashActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,13 +18,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".MyApplication" />
-        <activity
-            android:name=".presentation.login.LoginActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity
-            android:name=".presentation.sellsman.ui.activities.SellDashboardActivity"
-            android:label="@string/title_activity_main"
-            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".presentation.login.LoginActivity"></activity>
     </application>
 
 </manifest>
